@@ -26,9 +26,9 @@ console.log(firstPresidentCloze.partial);
 console.log(firstPresidentCloze.fullText);
 
 // Should throw or log an error because "oops" doesn't appear in "This doesn't work"
-// var brokenCloze = new ClozeCard("This doesn't work", "oops");
-// // console.log(brokenCloze.cloze); 
-// console.log(brokenCloze.partial); 
+var brokenCloze = new ClozeCard("This doesn't work", "oops");
+console.log(brokenCloze.cloze); 
+console.log(brokenCloze.partial); 
 // // console.log(brokenCloze.fullText); 
 
 
